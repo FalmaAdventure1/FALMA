@@ -1,0 +1,10 @@
+// Ulangi teks pita berjalan supaya selalu penuh di layar lebar
+const band = document.getElementById('band');
+if (band) {
+  const teks = band.textContent.trim();
+  band.textContent = Array(4).fill(teks).join('  ');
+}
+
+// Tahun di footer selalu otomatis
+const year = document.getElementById('year');
+if (year) year.textContent = new Date().getFullYear();

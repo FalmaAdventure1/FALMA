@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Falma Adventure | Celana Gunung dan Outdoor</title>
+  <meta name="description" content="Falma Adventure: celana untuk hiking, camping, dan muncak. Belanja di TikTok dan Shopee.">
+  <link rel="icon" href="img/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&family=Barlow:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <img class="logo" src="img/logo.jpg" alt="Logo Falma Adventure" width="132" height="132">
+    <h1>Falma Adventure</h1>
+    <p class="sub">Celana buat muncak, siap gas ⛰️</p>
+
+    <div class="btns">
+      <a class="btn tt" href="https://www.tiktok.com/@falmaadventure.official?lang=id-ID" target="_blank" rel="noopener">
+        <img src="img/tiktok.svg" alt="" width="42" height="42">
+        <span>TikTok<small>Lihat video dan produk</small></span>
+      </a>
+      <a class="btn sp" href="https://id.shp.ee/eRbRMEV4" target="_blank" rel="noopener">
+        <img src="img/shopee.svg" alt="" width="42" height="42">
+        <span>Shopee<small>Cek produk dan voucher</small></span>
+      </a>
+      <a class="btn ig" href="https://www.instagram.com/falmaadventure_official/" target="_blank" rel="noopener">
+        <img src="img/instagram.svg" alt="" width="42" height="42">
+        <span>Instagram<small>Follow @falmaadventure_official</small></span>
+      </a>
+    </div>
+
+    <p class="hint">Ketuk tombol, pilih celana, checkout. Gampang.</p>
+  </div>
+</header>
+
+<div class="band-wrap" aria-hidden="true"><div class="band"><span id="band">HIKING ⛰️ CAMPING ⛺ MUNCAK 🔥</span></div></div>
+
+<footer>&copy; <span id="year">2026</span> Falma Adventure</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
